@@ -1,0 +1,12 @@
+F:\ProjectSetup\EmployeeManagementSystem\DAL.EFCore\bin\Debug\netcoreapp3.0\DAL.EFCore.deps.json
+F:\ProjectSetup\EmployeeManagementSystem\DAL.EFCore\bin\Debug\netcoreapp3.0\DAL.EFCore.dll
+F:\ProjectSetup\EmployeeManagementSystem\DAL.EFCore\bin\Debug\netcoreapp3.0\DAL.EFCore.pdb
+F:\ProjectSetup\EmployeeManagementSystem\DAL.EFCore\bin\Debug\netcoreapp3.0\Domain.dll
+F:\ProjectSetup\EmployeeManagementSystem\DAL.EFCore\bin\Debug\netcoreapp3.0\Domain.pdb
+F:\ProjectSetup\EmployeeManagementSystem\DAL.EFCore\obj\Debug\netcoreapp3.0\DAL.EFCore.csprojAssemblyReference.cache
+F:\ProjectSetup\EmployeeManagementSystem\DAL.EFCore\obj\Debug\netcoreapp3.0\DAL.EFCore.AssemblyInfoInputs.cache
+F:\ProjectSetup\EmployeeManagementSystem\DAL.EFCore\obj\Debug\netcoreapp3.0\DAL.EFCore.AssemblyInfo.cs
+F:\ProjectSetup\EmployeeManagementSystem\DAL.EFCore\obj\Debug\netcoreapp3.0\DAL.EFCore.csproj.CoreCompileInputs.cache
+F:\ProjectSetup\EmployeeManagementSystem\DAL.EFCore\obj\Debug\netcoreapp3.0\DAL.EFCore.csproj.CopyComplete
+F:\ProjectSetup\EmployeeManagementSystem\DAL.EFCore\obj\Debug\netcoreapp3.0\DAL.EFCore.dll
+F:\ProjectSetup\EmployeeManagementSystem\DAL.EFCore\obj\Debug\netcoreapp3.0\DAL.EFCore.pdb

@@ -1,0 +1,17 @@
+F:\ProjectSetup\EmployeeManagementSystem\Domain\bin\Debug\netcoreapp3.0\Domain.deps.json
+F:\ProjectSetup\EmployeeManagementSystem\Domain\bin\Debug\netcoreapp3.0\Domain.dll
+F:\ProjectSetup\EmployeeManagementSystem\Domain\bin\Debug\netcoreapp3.0\Domain.pdb
+F:\ProjectSetup\EmployeeManagementSystem\Domain\obj\Debug\netcoreapp3.0\Domain.AssemblyInfoInputs.cache
+F:\ProjectSetup\EmployeeManagementSystem\Domain\obj\Debug\netcoreapp3.0\Domain.AssemblyInfo.cs
+F:\ProjectSetup\EmployeeManagementSystem\Domain\obj\Debug\netcoreapp3.0\Domain.csproj.CoreCompileInputs.cache
+F:\ProjectSetup\EmployeeManagementSystem\Domain\obj\Debug\netcoreapp3.0\Domain.dll
+F:\ProjectSetup\EmployeeManagementSystem\Domain\obj\Debug\netcoreapp3.0\Domain.pdb
+D:\EmployeeManagementSystem\Domain\bin\Debug\netcoreapp3.0\Domain.deps.json
+D:\EmployeeManagementSystem\Domain\bin\Debug\netcoreapp3.0\Domain.dll
+D:\EmployeeManagementSystem\Domain\bin\Debug\netcoreapp3.0\Domain.pdb
+D:\EmployeeManagementSystem\Domain\obj\Debug\netcoreapp3.0\Domain.csprojAssemblyReference.cache
+D:\EmployeeManagementSystem\Domain\obj\Debug\netcoreapp3.0\Domain.AssemblyInfoInputs.cache
+D:\EmployeeManagementSystem\Domain\obj\Debug\netcoreapp3.0\Domain.AssemblyInfo.cs
+D:\EmployeeManagementSystem\Domain\obj\Debug\netcoreapp3.0\Domain.csproj.CoreCompileInputs.cache
+D:\EmployeeManagementSystem\Domain\obj\Debug\netcoreapp3.0\Domain.dll
+D:\EmployeeManagementSystem\Domain\obj\Debug\netcoreapp3.0\Domain.pdb
