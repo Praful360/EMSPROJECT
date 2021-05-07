@@ -1,3 +1,14 @@
-﻿@{
-    Layout = "_Layout";
-}
+﻿@{  using System.Web;
+    string CurrentName = Convert.ToString(HttpContext.Current.Request.RequestContext.RouteData.Values["Controller"]);  
+    dynamic Layout;  
+    switch (CurrentName)  
+    {  
+        case "Admin":  
+            Layout = "_Layout";  
+            break;  
+        default:  
+            //Admin layout  
+            Layout = "_AdminLayout";  
+            break;  
+    }  
+}  

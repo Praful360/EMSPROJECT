@@ -1,0 +1,214 @@
+﻿@{
+    ViewData["Title"] = "Department";
+}
+<section class="employee-management-system-main-wrapper">
+    <!-- navigation section -->
+    <section class="main-navigation-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="../../images/logo.png" alt=""></a>
+                        </li>
+                        <li>
+                            <!-- hamburger -->
+                        </li>
+                        <li><p>Deurali Organic Farm</p></li>
+                        <li><input type="text" placeholder="Search here....."><i class="fa fa-search"></i></li>
+                        <li><a href="#"><i class="fa fa-bell"></i></a></li>
+                        <li><a href="#"><i class="fa fa-comment"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="profile-picture-wrapper">
+            <img src="../../images/img-test2.jpg" alt="">
+            <div class="active-status-icon">
+                <div class="active-icon"></div>
+            </div>
+        </div>
+    </section>
+    <!-- navigation section -->
+    <!-- dashboard -->
+    <section class="main-dashboard-section">
+        <div class="dashboard-parent">
+            <!-- side-menu -->
+            <div class="dashboard-childs">
+                <!-- manage-department -->
+                <ul>
+                    <li><a href="#" class="text-white"><i class="fa fa-database mr-2"></i> Main</a></li>
+                    <li><a href="../admin-dashboard.html"><i class="fa fa-building mr-3"></i> Department</a></li>
+                    <li><a href="#"><i class="fa fa-user mr-3"></i> Employee</a></li>
+                    <li><a href="#"><i class="fa fa-money-bill mr-3"></i> Salary</a></li>
+                    <li><a href="#"><i class="fa fa-align-center mr-3"></i> Leaves</a></li>
+                    <li><a href="#"><i class="fa fa-clipboard mr-3"></i> Designation</a></li>
+                    <li><a href="#"><i class="fa fa-list-alt mr-3"></i> Vacancy</a></li>
+                    <li><a href="#"><i class="fa fa-chart-area mr-3"></i> Reports</a></li>
+                </ul>
+                <!-- manage-department -->
+            </div>
+            <!-- side-menu -->
+            <!-- main-display -->
+            <!-- ------------------------------ -->
+            <div class="dashboard-childs">
+                <!-- web-view -->
+                <div class="my-breadcrumb">
+                    <ul>
+                        <li>Organic Deurali Farm</li>
+                        <li><i class="fa fa-angle-double-right"></i></li>
+                        <li>Manage Department</li>
+                    </ul>
+                </div>
+                <div class="crud-view-wrapper">
+                    <div class="crud-view-wrapper-parent">
+                        <div class="crud-view-wrapper-child">
+                            <div class="add-new-btn">
+                                <a href="add-department.html" class="btn btn-outline-success">Add New Department <i class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="crud-view-wrapper-child">
+                            <div class="oparation-title">
+                                <h3>Manage Department</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- view table -->
+                    <table class="table table-hover table-bordered mt-4">
+                        <thead>
+                            <tr>
+                                <th scope="col">S.N</th>
+                                <th scope="col">Fname</th>
+                                <th scope="col">Lname</th>
+                                <th scope="col">DOB</th>
+                                <th scope="col">Address</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Phone</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Prabesh</td>
+                                <td>Rijal</td>
+                                <td>5-2-2021</td>
+                                <td>Pokhara, Nepal</td>
+                                <td>prabeshrijal5@gmail.com</td>
+                                <td>98754552</td>
+                                <td class="my-action-icons">
+                                    <ul>
+                                        <li class="mr-3"><a href="view-department.html"><i class="fa fa-eye"></i></a></li>
+                                        <li class="mr-3"><a href="update-department.html"><i class="fa fa-pen"></i></a></li>
+                                        <li class="mr-3"><a href="#"><i class="fa fa-trash"></i></a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Praful</td>
+                                <td>Tamrakar</td>
+                                <td>5-2-2021</td>
+                                <td>Pokhara, Nepal</td>
+                                <td>prafultamrakar5@gmail.com</td>
+                                <td>98754552</td>
+                                <td class="my-action-icons">
+                                    <ul>
+                                        <li class="mr-3"><a href="#"><i class="fa fa-eye"></i></a></li>
+                                        <li class="mr-3"><a href="#"><i class="fa fa-pen"></i></a></li>
+                                        <li class="mr-3"><a href="#"><i class="fa fa-trash"></i></a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Vivek</td>
+                                <td>Gurung</td>
+                                <td>5-2-2021</td>
+                                <td>Pokhara, Nepal</td>
+                                <td>vivekgurung5@gmail.com</td>
+                                <td>98754552</td>
+                                <td class="my-action-icons">
+                                    <ul>
+                                        <li class="mr-3"><a href="#"><i class="fa fa-eye"></i></a></li>
+                                        <li class="mr-3"><a href="#"><i class="fa fa-pen"></i></a></li>
+                                        <li class="mr-3"><a href="#"><i class="fa fa-trash"></i></a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4</th>
+                                <td>Vivek</td>
+                                <td>Gurung</td>
+                                <td>5-2-2021</td>
+                                <td>Pokhara, Nepal</td>
+                                <td>vivekgurung5@gmail.com</td>
+                                <td>98754552</td>
+                                <td class="my-action-icons">
+                                    <ul>
+                                        <li class="mr-3"><a href="#"><i class="fa fa-eye"></i></a></li>
+                                        <li class="mr-3"><a href="#"><i class="fa fa-pen"></i></a></li>
+                                        <li class="mr-3"><a href="#"><i class="fa fa-trash"></i></a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Vivek</td>
+                                <td>Gurung</td>
+                                <td>5-2-2021</td>
+                                <td>Pokhara, Nepal</td>
+                                <td>vivekgurung5@gmail.com</td>
+                                <td>98754552</td>
+                                <td class="my-action-icons">
+                                    <ul>
+                                        <li class="mr-3"><a href="#"><i class="fa fa-eye"></i></a></li>
+                                        <li class="mr-3"><a href="#"><i class="fa fa-pen"></i></a></li>
+                                        <li class="mr-3"><a href="#"><i class="fa fa-trash"></i></a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td>Vivek</td>
+                                <td>Gurung</td>
+                                <td>5-2-2021</td>
+                                <td>Pokhara, Nepal</td>
+                                <td>vivekgurung5@gmail.com</td>
+                                <td>98754552</td>
+                                <td class="my-action-icons">
+                                    <ul>
+                                        <li class="mr-3"><a href="#"><i class="fa fa-eye"></i></a></li>
+                                        <li class="mr-3"><a href="#"><i class="fa fa-pen"></i></a></li>
+                                        <li class="mr-3"><a href="#"><i class="fa fa-trash"></i></a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td>Vivek</td>
+                                <td>Gurung</td>
+                                <td>5-2-2021</td>
+                                <td>Pokhara, Nepal</td>
+                                <td>vivekgurung5@gmail.com</td>
+                                <td>98754552</td>
+                                <td class="my-action-icons">
+                                    <ul>
+                                        <li class="mr-3"><a href="#"><i class="fa fa-eye"></i></a></li>
+                                        <li class="mr-3"><a href="#"><i class="fa fa-pen"></i></a></li>
+                                        <li class="mr-3"><a href="#"><i class="fa fa-trash"></i></a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- view table -->
+                </div>
+                <!-- web-view -->
+            </div>
+            <!-- main-display -->
+        </div>
+    </section>
+    <!-- dashboard -->
+</section>
+<script src="js/custom.js"></script>

@@ -4947,11 +4947,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EmployeeManagementSystem\\DAL.EFCore\\DAL.EFCore.csproj",
+      "projectUniqueName": "D:\\EMSPROJECT\\DAL.EFCore\\DAL.EFCore.csproj",
       "projectName": "DAL.EFCore",
-      "projectPath": "D:\\EmployeeManagementSystem\\DAL.EFCore\\DAL.EFCore.csproj",
+      "projectPath": "D:\\EMSPROJECT\\DAL.EFCore\\DAL.EFCore.csproj",
       "packagesPath": "C:\\Users\\dell.admin\\.nuget\\packages\\",
-      "outputPath": "D:\\EmployeeManagementSystem\\DAL.EFCore\\obj\\",
+      "outputPath": "D:\\EMSPROJECT\\DAL.EFCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dell.admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4968,8 +4968,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\EmployeeManagementSystem\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\EmployeeManagementSystem\\Domain\\Domain.csproj"
+            "D:\\EMSPROJECT\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\EMSPROJECT\\Domain\\Domain.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\EmployeeManagementSystem\\DAL.EFCore\\DAL.EFCore.csproj": {}
+    "D:\\EMSPROJECT\\DAL.EFCore\\DAL.EFCore.csproj": {}
   },
   "projects": {
-    "D:\\EmployeeManagementSystem\\DAL.EFCore\\DAL.EFCore.csproj": {
+    "D:\\EMSPROJECT\\DAL.EFCore\\DAL.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EmployeeManagementSystem\\DAL.EFCore\\DAL.EFCore.csproj",
+        "projectUniqueName": "D:\\EMSPROJECT\\DAL.EFCore\\DAL.EFCore.csproj",
         "projectName": "DAL.EFCore",
-        "projectPath": "D:\\EmployeeManagementSystem\\DAL.EFCore\\DAL.EFCore.csproj",
+        "projectPath": "D:\\EMSPROJECT\\DAL.EFCore\\DAL.EFCore.csproj",
         "packagesPath": "C:\\Users\\dell.admin\\.nuget\\packages\\",
-        "outputPath": "D:\\EmployeeManagementSystem\\DAL.EFCore\\obj\\",
+        "outputPath": "D:\\EMSPROJECT\\DAL.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dell.admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\EmployeeManagementSystem\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\EmployeeManagementSystem\\Domain\\Domain.csproj"
+              "D:\\EMSPROJECT\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\EMSPROJECT\\Domain\\Domain.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "D:\\EmployeeManagementSystem\\Domain\\Domain.csproj": {
+    "D:\\EMSPROJECT\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EmployeeManagementSystem\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\EMSPROJECT\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\EmployeeManagementSystem\\Domain\\Domain.csproj",
+        "projectPath": "D:\\EMSPROJECT\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\dell.admin\\.nuget\\packages\\",
-        "outputPath": "D:\\EmployeeManagementSystem\\Domain\\obj\\",
+        "outputPath": "D:\\EMSPROJECT\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dell.admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

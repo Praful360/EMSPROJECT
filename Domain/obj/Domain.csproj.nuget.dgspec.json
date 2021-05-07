@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\EmployeeManagementSystem\\Domain\\Domain.csproj": {}
+    "D:\\EMSPROJECT\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\EmployeeManagementSystem\\Domain\\Domain.csproj": {
+    "D:\\EMSPROJECT\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EmployeeManagementSystem\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\EMSPROJECT\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\EmployeeManagementSystem\\Domain\\Domain.csproj",
+        "projectPath": "D:\\EMSPROJECT\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\dell.admin\\.nuget\\packages\\",
-        "outputPath": "D:\\EmployeeManagementSystem\\Domain\\obj\\",
+        "outputPath": "D:\\EMSPROJECT\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dell.admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
