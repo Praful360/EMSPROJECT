@@ -1,13 +1,72 @@
 ﻿<!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Deurali Organic Farm</title>
+    <link rel="stylesheet" href="~/lib/fonts/Roboto-Regular.ttf">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/styles.css" />
 </head>
 <body>
-    <div>
-        @RenderBody()
-    </div>
+    <section class="employee-management-system-main-wrapper">
+        <section class="main-navigation-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="../images/logo.png" alt=""></a>
+                            </li>
+                            <li>
+                                <!-- hamburger -->
+                            </li>
+                            <li><p>Deurali Organic Farm</p></li>
+                            <li><input type="text" placeholder="Search here....."><i class="fa fa-search"></i></li>
+                            <li><a href="#"><i class="fa fa-bell"></i></a></li>
+                            <li><a href="#"><i class="fa fa-comment"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-picture-wrapper">
+                <img src="../images/img-test2.jpg" alt="">
+                <div class="active-status-icon">
+                    <div class="active-icon"></div>
+                </div>
+            </div>
+        </section>
+        <section class="main-dashboard-section">
+            <div class="dashboard-parent">
+                <div class="dashboard-childs">
+                    <!-- manage-department -->
+                    <ul>
+                        <li><a href="#" class="text-white"><i class="fa fa-database mr-2"></i> Main</a></li>
+                        <li><a href="department/department.html"><i class="fa fa-building mr-3"></i> Department</a></li>
+                        <li><a href="#"><i class="fa fa-user mr-3"></i> Employee</a></li>
+                        <li><a href="#"><i class="fa fa-money-bill mr-3"></i> Salary</a></li>
+                        <li><a href="#"><i class="fa fa-align-center mr-3"></i> Leaves</a></li>
+                        <li><a href="#"><i class="fa fa-clipboard mr-3"></i> Designation</a></li>
+                        <li><a href="#"><i class="fa fa-list-alt mr-3"></i> Vacancy</a></li>
+                        <li><a href="#"><i class="fa fa-chart-area mr-3"></i> Reports</a></li>
+                    </ul>
+                    <!-- manage-department -->
+                </div>
+                    <div class="dashboard-childs">
+                        @RenderBody()
+                        </div>
+            </div>
+        </section>
+        </section>
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2021 - EmployeeManagementSystem - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @RenderSection("Scripts", required: false)
 </body>
 </html>

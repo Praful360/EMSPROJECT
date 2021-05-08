@@ -9,8 +9,27 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagementSystem.Controllers
 {
-    public class Department : Controller
+    public class DepartmentController : Controller
     {
-       
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult Views()
+        {
+            return View();
+        }
+
+        public IActionResult Edit()
+        {
+            return View();
+        }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
     }
 }

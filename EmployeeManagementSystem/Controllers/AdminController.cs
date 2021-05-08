@@ -8,6 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace EmployeeManagementSystem.Controllers
+
 {
     public class AdminController : Controller
     {
@@ -16,9 +17,6 @@ namespace EmployeeManagementSystem.Controllers
             return View();
         }
 
-        public IActionResult Department()
-        {
-            return View("Department/Index");
-        }
+        
     }
 }
