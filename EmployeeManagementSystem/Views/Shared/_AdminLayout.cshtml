@@ -19,7 +19,7 @@
                             <li>
                                 <a href="#"><img src="../images/logo.png" alt=""></a>
                             </li>
-                            <li>
+                            <li id="hamburger-target">
                                 <!-- hamburger -->
                             </li>
                             <li><p>Deurali Organic Farm</p></li>
@@ -35,11 +35,14 @@
                 <div class="active-status-icon">
                     <div class="active-icon"></div>
                 </div>
+                <div class="logout-btn">
+                    <a href="#">Logout <i class="fa fa-sign-out-alt"></i></a>
+                </div>
             </div>
         </section>
         <section class="main-dashboard-section">
             <div class="dashboard-parent">
-                <div class="dashboard-childs">
+                <div class="dashboard-childs my-dashboard-first-child">
                     <!-- manage-department -->
                     <ul>
                         <li><a href="#" class="text-white"><i class="fa fa-database mr-2"></i> Main</a></li>
@@ -53,17 +56,17 @@
                     </ul>
                     <!-- manage-department -->
                 </div>
-                    <div class="dashboard-childs">
+                    <div class="dashboard-childs my-dashboard-last-child">
                         @RenderBody()
-                        </div>
+                    </div>
             </div>
         </section>
-        </section>
-        <footer class="border-top footer text-muted">
+        <footer class="footer">
             <div class="container">
-                &copy; 2021 - EmployeeManagementSystem - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                <h2><i class="fa fa-copyright"></i> 2021 - EmployeeManagementSystem</h2>
             </div>
         </footer>
+        </section>
         <script src="~/lib/jquery/dist/jquery.min.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
         <script src="~/js/site.js" asp-append-version="true"></script>

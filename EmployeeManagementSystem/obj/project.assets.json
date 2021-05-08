@@ -5031,19 +5031,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dell.admin\\.nuget\\packages\\": {}
+    "C:\\Users\\PRABESH\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EMSPROJECT\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\EMSPROJECT\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj",
       "projectName": "EmployeeManagementSystem",
-      "projectPath": "D:\\EMSPROJECT\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj",
-      "packagesPath": "C:\\Users\\dell.admin\\.nuget\\packages\\",
-      "outputPath": "D:\\EMSPROJECT\\EmployeeManagementSystem\\obj\\",
+      "projectPath": "C:\\xampp\\htdocs\\EMSPROJECT\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj",
+      "packagesPath": "C:\\Users\\PRABESH\\.nuget\\packages\\",
+      "outputPath": "C:\\xampp\\htdocs\\EMSPROJECT\\EmployeeManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dell.admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PRABESH\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5055,10 +5055,9 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\EMSPROJECT\\DAL.EFCore\\DAL.EFCore.csproj": {
-              "projectPath": "D:\\EMSPROJECT\\DAL.EFCore\\DAL.EFCore.csproj"
+            "C:\\xampp\\htdocs\\EMSPROJECT\\DAL.EFCore\\DAL.EFCore.csproj": {
+              "projectPath": "C:\\xampp\\htdocs\\EMSPROJECT\\DAL.EFCore\\DAL.EFCore.csproj"
             }
           }
         }
@@ -5071,7 +5070,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -5104,7 +5102,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.114\\RuntimeIdentifierGraph.json"
       }
     }
   }

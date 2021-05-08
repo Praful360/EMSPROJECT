@@ -9,8 +9,28 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
 }
 
-p, ul, li, ol, a {
+p, ul, li, ol, a, table {
   font-family: 'Roboto', sans-serif;
+}
+
+html::-webkit-scrollbar {
+  width: 0.6rem;
+  background: #dbdbdb;
+}
+
+html::-webkit-scrollbar-track {
+  border-radius: 0.2rem;
+  background: transparent;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+html::-webkit-scrollbar-thumb {
+  border-radius: 0.2rem;
+  background: -webkit-gradient(linear, left bottom, left top, from(#f43b48), to(#453a94));
+  background: linear-gradient(to top, #f43b48 0%, #453a94 100%);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
 .employee-management-system-main-wrapper {
@@ -20,7 +40,7 @@ p, ul, li, ol, a {
 .employee-management-system-main-wrapper .main-navigation-section {
   background: -webkit-gradient(linear, left top, right top, from(#f43b48), to(#453a94));
   background: linear-gradient(to right, #f43b48 0%, #453a94 100%);
-  padding: 1.2rem;
+  padding: 1.4rem;
   position: fixed;
   z-index: 500;
   width: 100%;
@@ -43,16 +63,16 @@ p, ul, li, ol, a {
 }
 
 .employee-management-system-main-wrapper .main-navigation-section ul li:nth-child(1) {
-  left: 10%;
+  left: 0%;
 }
 
 .employee-management-system-main-wrapper .main-navigation-section ul li:nth-child(1) img {
   height: auto;
-  width: 20%;
+  width: 24%;
 }
 
 .employee-management-system-main-wrapper .main-navigation-section ul li:nth-child(4) {
-  left: 60%;
+  left: 66%;
 }
 
 .employee-management-system-main-wrapper .main-navigation-section ul li:nth-child(4) i {
@@ -63,19 +83,20 @@ p, ul, li, ol, a {
 
 .employee-management-system-main-wrapper .main-navigation-section ul li:nth-child(2) {
   position: relative;
-  left: 16%;
-  height: 0.2rem;
+  left: 5%;
+  height: 0.3rem;
   width: 1.5rem;
   border-radius: 1rem;
   background: #fff;
   -webkit-transform: translateY(-0.4rem);
           transform: translateY(-0.4rem);
+  cursor: pointer;
 }
 
 .employee-management-system-main-wrapper .main-navigation-section ul li:nth-child(2)::after {
   content: "";
   position: absolute;
-  height: 0.2rem;
+  height: 0.3rem;
   width: 0.6rem;
   border-radius: 1rem;
   background: #fff;
@@ -86,7 +107,7 @@ p, ul, li, ol, a {
 .employee-management-system-main-wrapper .main-navigation-section ul li:nth-child(2)::before {
   content: "";
   position: absolute;
-  height: 0.2rem;
+  height: 0.3rem;
   width: 1.5rem;
   border-radius: 1rem;
   background: #fff;
@@ -95,34 +116,34 @@ p, ul, li, ol, a {
 }
 
 .employee-management-system-main-wrapper .main-navigation-section ul li:nth-child(3) {
-  left: 27%;
+  left: 20%;
 }
 
 .employee-management-system-main-wrapper .main-navigation-section ul li:nth-child(3) p {
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   color: #fff;
   margin: 0;
   padding: 0;
 }
 
 .employee-management-system-main-wrapper .main-navigation-section ul li:nth-child(5) {
-  left: 85%;
+  left: 95%;
 }
 
 .employee-management-system-main-wrapper .main-navigation-section ul li:nth-child(5) i {
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-right: 2rem;
 }
 
 .employee-management-system-main-wrapper .main-navigation-section ul li:nth-child(6) {
-  left: 90%;
+  left: 100%;
 }
 
 .employee-management-system-main-wrapper .main-navigation-section ul li:nth-child(6) i {
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-right: 1rem;
 }
 
@@ -147,14 +168,15 @@ p, ul, li, ol, a {
 }
 
 .employee-management-system-main-wrapper .main-navigation-section .profile-picture-wrapper {
-  height: 3rem;
-  width: 3rem;
+  height: 3.6rem;
+  width: 3.6rem;
   border-radius: 100%;
   position: absolute;
   top: 50%;
   right: 1.7rem;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
 .employee-management-system-main-wrapper .main-navigation-section .profile-picture-wrapper img {
@@ -181,24 +203,60 @@ p, ul, li, ol, a {
   border-radius: 100%;
 }
 
+.employee-management-system-main-wrapper .main-navigation-section .logout-add-me {
+  display: block !important;
+}
+
+.employee-management-system-main-wrapper .main-navigation-section .logout-btn {
+  background: #fff;
+  position: absolute;
+  top: 160%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 500;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 0.2rem;
+  display: none;
+  -webkit-box-shadow: 0 0 1rem 0 #b1b1b1;
+          box-shadow: 0 0 1rem 0 #b1b1b1;
+}
+
+.employee-management-system-main-wrapper .main-navigation-section .logout-btn a {
+  font-size: 1.2rem;
+  color: #7e7e7e;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+}
+
+.employee-management-system-main-wrapper .main-navigation-section .logout-btn a:hover {
+  color: #444444;
+}
+
 .employee-management-system-main-wrapper .main-navigation-section ::-webkit-input-placeholder {
   color: #d6d6d6;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .employee-management-system-main-wrapper .main-navigation-section :-ms-input-placeholder {
   color: #d6d6d6;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .employee-management-system-main-wrapper .main-navigation-section ::-ms-input-placeholder {
   color: #d6d6d6;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .employee-management-system-main-wrapper .main-navigation-section ::placeholder {
   color: #d6d6d6;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .employee-management-system-main-wrapper .main-dashboard-section {
@@ -214,14 +272,27 @@ p, ul, li, ol, a {
   width: 100%;
 }
 
+.employee-management-system-main-wrapper .main-dashboard-section .dashboard-parent .dashboard-first-child-add {
+  -ms-flex-preferred-size: 0% !important;
+      flex-basis: 0% !important;
+  display: none;
+}
+
+.employee-management-system-main-wrapper .main-dashboard-section .dashboard-parent .dashboard-last-child-add {
+  -ms-flex-preferred-size: 100% !important;
+      flex-basis: 100% !important;
+}
+
 .employee-management-system-main-wrapper .main-dashboard-section .dashboard-parent .dashboard-childs:first-child {
   -ms-flex-preferred-size: 18%;
       flex-basis: 18%;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   background: #34444c;
 }
 
 .employee-management-system-main-wrapper .main-dashboard-section .dashboard-parent .dashboard-childs:first-child ul {
-  margin: 6rem 0rem 0rem 3.2rem;
+  margin: 6rem 0rem 0rem 4rem;
 }
 
 .employee-management-system-main-wrapper .main-dashboard-section .dashboard-parent .dashboard-childs:first-child ul li:first-child {
@@ -244,7 +315,7 @@ p, ul, li, ol, a {
 
 .employee-management-system-main-wrapper .main-dashboard-section .dashboard-parent .dashboard-childs:first-child ul li a {
   color: #dddddd;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 .employee-management-system-main-wrapper .main-dashboard-section .dashboard-parent .dashboard-childs:first-child ul li a i {
@@ -260,12 +331,12 @@ p, ul, li, ol, a {
   -ms-flex-preferred-size: 82%;
       flex-basis: 82%;
   background: #f8f8f8;
-  padding: 6rem 2rem 0rem 2rem;
+  padding: 6.5rem 2rem 2rem 2rem;
   min-height: 46rem;
 }
 
 .employee-management-system-main-wrapper .main-dashboard-section .dashboard-parent .dashboard-childs:last-child .welcome-admin h1 {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   color: #8f8f8f;
   margin-top: -0.6rem;
 }
@@ -287,8 +358,8 @@ p, ul, li, ol, a {
 }
 
 .employee-management-system-main-wrapper .main-dashboard-section .dashboard-parent .dashboard-childs:last-child .main-report-wrapper .main-report-icon {
-  height: 4rem;
-  width: 4rem;
+  height: 4.6rem;
+  width: 4.6rem;
   background: #fff;
   border: 4px solid #f8f8f8;
   border-radius: 100%;
@@ -308,19 +379,19 @@ p, ul, li, ol, a {
 }
 
 .employee-management-system-main-wrapper .main-dashboard-section .dashboard-parent .dashboard-childs:last-child .main-report-wrapper .main-report-icon i {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #f43b48;
 }
 
 .employee-management-system-main-wrapper .main-dashboard-section .dashboard-parent .dashboard-childs:last-child .main-report-wrapper .main-report-info h3 {
-  font-size: 2.6rem;
+  font-size: 2.8rem;
   color: #646464;
   text-align: center;
   margin-top: 0.6rem;
 }
 
 .employee-management-system-main-wrapper .main-dashboard-section .dashboard-parent .dashboard-childs:last-child .main-report-wrapper .main-report-info p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #8f8f8f;
   text-align: center;
   margin-top: -1rem;
@@ -354,7 +425,7 @@ p, ul, li, ol, a {
 
 .employee-management-system-main-wrapper .main-dashboard-section .my-breadcrumb ul li {
   list-style-type: none;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin: 0rem 0.4rem;
   color: #8f8f8f;
 }
@@ -377,9 +448,17 @@ p, ul, li, ol, a {
   margin-top: 1rem;
 }
 
+.employee-management-system-main-wrapper .main-dashboard-section .crud-view-wrapper .crud-view-wrapper-parent .crud-view-wrapper-child:first-child a {
+  font-size: 1.1rem;
+}
+
 .employee-management-system-main-wrapper .main-dashboard-section .crud-view-wrapper .crud-view-wrapper-parent .crud-view-wrapper-child:last-child .oparation-title h3 {
   color: #8f8f8f;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.employee-management-system-main-wrapper .main-dashboard-section table {
+  font-size: 1.2rem;
 }
 
 .employee-management-system-main-wrapper .main-dashboard-section .add-new-form form {
@@ -391,18 +470,42 @@ p, ul, li, ol, a {
           box-shadow: 0 0 1rem 0 rgba(126, 126, 126, 0.178);
 }
 
+.employee-management-system-main-wrapper .main-dashboard-section .add-new-form form ::-webkit-input-placeholder {
+  font-size: 1.2rem;
+  color: #aaaaaa;
+}
+
+.employee-management-system-main-wrapper .main-dashboard-section .add-new-form form :-ms-input-placeholder {
+  font-size: 1.2rem;
+  color: #aaaaaa;
+}
+
+.employee-management-system-main-wrapper .main-dashboard-section .add-new-form form ::-ms-input-placeholder {
+  font-size: 1.2rem;
+  color: #aaaaaa;
+}
+
+.employee-management-system-main-wrapper .main-dashboard-section .add-new-form form ::placeholder {
+  font-size: 1.2rem;
+  color: #aaaaaa;
+}
+
 .employee-management-system-main-wrapper .main-dashboard-section .add-new-form form .form-group {
   margin: 1.2rem 0rem;
 }
 
 .employee-management-system-main-wrapper .main-dashboard-section .add-new-form form .form-group label {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 500;
   color: #727272;
 }
 
 .employee-management-system-main-wrapper .main-dashboard-section .add-new-form form .form-group label span {
   color: red;
+}
+
+.employee-management-system-main-wrapper .main-dashboard-section .add-new-form form .submit-btn a {
+  font-size: 1.2rem;
 }
 
 .employee-management-system-main-wrapper .main-dashboard-section .view-box-wrapper .view-box-wrapper-parent {
@@ -414,7 +517,7 @@ p, ul, li, ol, a {
   border-radius: 0.6rem;
   -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.082);
           box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.082);
-  border: 2px dashed #cacaca;
+  border: 3px dashed #e4e4e4;
 }
 
 .employee-management-system-main-wrapper .main-dashboard-section .view-box-wrapper .view-box-wrapper-parent .view-box-wrapper-child:first-child {
@@ -462,14 +565,14 @@ p, ul, li, ol, a {
   position: absolute;
   height: 100%;
   width: 0.2rem;
-  border: 2px dotted #747474;
+  border: 3px dotted silver;
   top: 0;
   left: -3rem;
 }
 
 .employee-management-system-main-wrapper .main-dashboard-section .view-box-wrapper .view-box-wrapper-parent .view-box-wrapper-child:last-child .info-details ul li {
   list-style-type: none;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: #9c9c9c;
 }
 
@@ -523,8 +626,8 @@ p, ul, li, ol, a {
 }
 
 .employee-management-system-main-wrapper .login-form-wrapper {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.9)), to(rgba(255, 255, 255, 0.9))), url("../images/bg.jpg");
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../images/bg.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.8))), url("../images/bg.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -543,7 +646,7 @@ p, ul, li, ol, a {
 .employee-management-system-main-wrapper .login-form-wrapper .login-form {
   background: #fff;
   width: 68vw;
-  height: 30rem;
+  height: 34rem;
   border-radius: 0.6rem;
   overflow: hidden;
   -webkit-box-shadow: 0 0 0.6rem 0 rgba(0, 0, 0, 0.301);
@@ -576,19 +679,12 @@ p, ul, li, ol, a {
   width: 100%;
   position: absolute;
   top: 0;
+  opacity: 1;
   right: 0;
 }
 
 .employee-management-system-main-wrapper .login-form-wrapper .login-form .login-form-parent .login-form-child:first-child .deco-animation {
   position: absolute;
-  fill: none;
-  stroke: rgba(255, 255, 255, 0.65);
-  stroke-width: 2;
-  stroke-dasharray: 10,10;
-  stroke-linecap: round;
-  top: 0;
-  left: 0;
-  animation: stroke-animation 5s ease-in-out infinite alternate-reverse;
 }
 
 @-webkit-keyframes stroke-animation {
@@ -622,7 +718,7 @@ p, ul, li, ol, a {
 
 .employee-management-system-main-wrapper .login-form-wrapper .login-form .login-form-parent .login-form-child:first-child .more-info h3 {
   color: #fff;
-  font-size: 2.6rem;
+  font-size: 2.8rem;
   text-align: center;
   text-shadow: 1px 2px 10px #000000bf;
 }
@@ -633,7 +729,7 @@ p, ul, li, ol, a {
 
 .employee-management-system-main-wrapper .login-form-wrapper .login-form .login-form-parent .login-form-child:first-child .more-info .more-info-btn p {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-shadow: 1px 2px 10px #000000bf;
   margin: 1rem 0rem 2.3rem 0rem;
   font-weight: 300;
@@ -644,7 +740,7 @@ p, ul, li, ol, a {
   border: 2px solid #fff;
   color: #fff;
   padding: 0.8rem 4rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
@@ -656,7 +752,7 @@ p, ul, li, ol, a {
 }
 
 .employee-management-system-main-wrapper .login-form-wrapper .login-form .login-form-parent .login-form-child:first-child .side-deco-image img {
-  height: 30rem;
+  height: 36rem;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -666,7 +762,7 @@ p, ul, li, ol, a {
 
 .employee-management-system-main-wrapper .login-form-wrapper .login-form .login-form-parent .login-form-child:last-child .my-login-form .login-title h3 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.4rem;
   color: #8f8f8f;
   margin: 1.6rem 0rem 1rem 0rem;
   font-weight: 400;
@@ -691,8 +787,8 @@ p, ul, li, ol, a {
 }
 
 .employee-management-system-main-wrapper .login-form-wrapper .login-form .login-form-parent .login-form-child:last-child .my-login-form .login-icons a .login-icon {
-  height: 3rem;
-  width: 3rem;
+  height: 3.3rem;
+  width: 3.3rem;
   border: 0.2rem solid #d4d4d4;
   border-radius: 100%;
   display: -webkit-box;
@@ -714,6 +810,7 @@ p, ul, li, ol, a {
 
 .employee-management-system-main-wrapper .login-form-wrapper .login-form .login-form-parent .login-form-child:last-child .my-login-form .login-icons a .login-icon i {
   color: #8f8f8f;
+  font-size: 1.3rem;
 }
 
 .employee-management-system-main-wrapper .login-form-wrapper .login-form .login-form-parent .login-form-child:last-child .my-login-form .use-email {
@@ -721,7 +818,7 @@ p, ul, li, ol, a {
 }
 
 .employee-management-system-main-wrapper .login-form-wrapper .login-form .login-form-parent .login-form-child:last-child .my-login-form .use-email p {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   text-align: center;
   color: #838383;
 }
@@ -730,9 +827,29 @@ p, ul, li, ol, a {
   padding: 0rem 2.6rem;
 }
 
+.employee-management-system-main-wrapper .login-form-wrapper .login-form .login-form-parent .login-form-child:last-child .my-login-form form .form-group ::-webkit-input-placeholder {
+  font-size: 1.2rem;
+  color: #a5a5a5;
+}
+
+.employee-management-system-main-wrapper .login-form-wrapper .login-form .login-form-parent .login-form-child:last-child .my-login-form form .form-group :-ms-input-placeholder {
+  font-size: 1.2rem;
+  color: #a5a5a5;
+}
+
+.employee-management-system-main-wrapper .login-form-wrapper .login-form .login-form-parent .login-form-child:last-child .my-login-form form .form-group ::-ms-input-placeholder {
+  font-size: 1.2rem;
+  color: #a5a5a5;
+}
+
+.employee-management-system-main-wrapper .login-form-wrapper .login-form .login-form-parent .login-form-child:last-child .my-login-form form .form-group ::placeholder {
+  font-size: 1.2rem;
+  color: #a5a5a5;
+}
+
 .employee-management-system-main-wrapper .login-form-wrapper .login-form .login-form-parent .login-form-child:last-child .my-login-form form .form-group label {
   color: #8b8b8b;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .employee-management-system-main-wrapper .login-form-wrapper .login-form .login-form-parent .login-form-child:last-child .my-login-form form .form-group label i {
@@ -748,6 +865,7 @@ p, ul, li, ol, a {
 .employee-management-system-main-wrapper .login-form-wrapper .login-form .login-form-parent .login-form-child:last-child .my-login-form form .login-submit-btn a {
   position: absolute;
   overflow: hidden;
+  font-size: 1.2rem !important;
   background: -webkit-gradient(linear, left top, right top, from(#f43b48), to(#453a94));
   background: linear-gradient(to right, #f43b48 0%, #453a94 100%);
   color: #fff;
@@ -778,6 +896,18 @@ p, ul, li, ol, a {
 .employee-management-system-main-wrapper .login-form-wrapper .login-form .login-form-parent .login-form-child:last-child .my-login-form form .login-submit-btn a:hover::after {
   -webkit-transform: translateX(100%) rotate(45deg);
           transform: translateX(100%) rotate(45deg);
+}
+
+.employee-management-system-main-wrapper .footer {
+  background: #ebebeb;
+  margin-bottom: -0.5rem;
+}
+
+.employee-management-system-main-wrapper .footer h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1rem 0rem;
+  color: #959595;
 }
 
 @media only screen and (max-width: 1400px) {

@@ -22,3 +22,14 @@ D:\EmployeeManagementSystem\DAL.EFCore\obj\Debug\netcoreapp3.1\DAL.EFCore.csproj
 D:\EmployeeManagementSystem\DAL.EFCore\obj\Debug\netcoreapp3.1\DAL.EFCore.csproj.CopyComplete
 D:\EmployeeManagementSystem\DAL.EFCore\obj\Debug\netcoreapp3.1\DAL.EFCore.dll
 D:\EmployeeManagementSystem\DAL.EFCore\obj\Debug\netcoreapp3.1\DAL.EFCore.pdb
+C:\xampp\htdocs\EMSPROJECT\DAL.EFCore\bin\Debug\netcoreapp3.1\DAL.EFCore.deps.json
+C:\xampp\htdocs\EMSPROJECT\DAL.EFCore\bin\Debug\netcoreapp3.1\DAL.EFCore.dll
+C:\xampp\htdocs\EMSPROJECT\DAL.EFCore\bin\Debug\netcoreapp3.1\DAL.EFCore.pdb
+C:\xampp\htdocs\EMSPROJECT\DAL.EFCore\bin\Debug\netcoreapp3.1\Domain.dll
+C:\xampp\htdocs\EMSPROJECT\DAL.EFCore\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\xampp\htdocs\EMSPROJECT\DAL.EFCore\obj\Debug\netcoreapp3.1\DAL.EFCore.csprojAssemblyReference.cache
+C:\xampp\htdocs\EMSPROJECT\DAL.EFCore\obj\Debug\netcoreapp3.1\DAL.EFCore.AssemblyInfoInputs.cache
+C:\xampp\htdocs\EMSPROJECT\DAL.EFCore\obj\Debug\netcoreapp3.1\DAL.EFCore.AssemblyInfo.cs
+C:\xampp\htdocs\EMSPROJECT\DAL.EFCore\obj\Debug\netcoreapp3.1\DAL.EFCore.csproj.CopyComplete
+C:\xampp\htdocs\EMSPROJECT\DAL.EFCore\obj\Debug\netcoreapp3.1\DAL.EFCore.dll
+C:\xampp\htdocs\EMSPROJECT\DAL.EFCore\obj\Debug\netcoreapp3.1\DAL.EFCore.pdb

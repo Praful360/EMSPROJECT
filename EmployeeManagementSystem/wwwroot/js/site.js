@@ -1,4 +1,16 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿"use strict";
+const logoutBtnTarget = document.querySelector(".profile-picture-wrapper");
+const logoutBtn = document.querySelector(".logout-btn");
+const hamburgerTarget = document.getElementById("hamburger-target");
+const myFirstChild = document.querySelector(".my-dashboard-first-child");
+const myLastChild = document.querySelector(".my-dashboard-last-child");
 
-// Write your JavaScript code.
+
+logoutBtnTarget.addEventListener("click", function(){
+    logoutBtn.classList.toggle("logout-add-me");
+});
+
+hamburgerTarget.addEventListener("click", function(){
+    myFirstChild.classList.toggle("dashboard-first-child-add");
+    myLastChild.classList.toggle("dashboard-last-child-add");
+});

@@ -15,3 +15,11 @@ D:\EmployeeManagementSystem\Domain\obj\Debug\netcoreapp3.0\Domain.AssemblyInfo.c
 D:\EmployeeManagementSystem\Domain\obj\Debug\netcoreapp3.0\Domain.csproj.CoreCompileInputs.cache
 D:\EmployeeManagementSystem\Domain\obj\Debug\netcoreapp3.0\Domain.dll
 D:\EmployeeManagementSystem\Domain\obj\Debug\netcoreapp3.0\Domain.pdb
+C:\xampp\htdocs\EMSPROJECT\Domain\bin\Debug\netcoreapp3.0\Domain.deps.json
+C:\xampp\htdocs\EMSPROJECT\Domain\bin\Debug\netcoreapp3.0\Domain.dll
+C:\xampp\htdocs\EMSPROJECT\Domain\bin\Debug\netcoreapp3.0\Domain.pdb
+C:\xampp\htdocs\EMSPROJECT\Domain\obj\Debug\netcoreapp3.0\Domain.csprojAssemblyReference.cache
+C:\xampp\htdocs\EMSPROJECT\Domain\obj\Debug\netcoreapp3.0\Domain.AssemblyInfoInputs.cache
+C:\xampp\htdocs\EMSPROJECT\Domain\obj\Debug\netcoreapp3.0\Domain.AssemblyInfo.cs
+C:\xampp\htdocs\EMSPROJECT\Domain\obj\Debug\netcoreapp3.0\Domain.dll
+C:\xampp\htdocs\EMSPROJECT\Domain\obj\Debug\netcoreapp3.0\Domain.pdb

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\EMSPROJECT\\DAL.EFCore\\DAL.EFCore.csproj": {}
+    "C:\\xampp\\htdocs\\EMSPROJECT\\DAL.EFCore\\DAL.EFCore.csproj": {}
   },
   "projects": {
-    "D:\\EMSPROJECT\\DAL.EFCore\\DAL.EFCore.csproj": {
+    "C:\\xampp\\htdocs\\EMSPROJECT\\DAL.EFCore\\DAL.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EMSPROJECT\\DAL.EFCore\\DAL.EFCore.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\EMSPROJECT\\DAL.EFCore\\DAL.EFCore.csproj",
         "projectName": "DAL.EFCore",
-        "projectPath": "D:\\EMSPROJECT\\DAL.EFCore\\DAL.EFCore.csproj",
-        "packagesPath": "C:\\Users\\dell.admin\\.nuget\\packages\\",
-        "outputPath": "D:\\EMSPROJECT\\DAL.EFCore\\obj\\",
+        "projectPath": "C:\\xampp\\htdocs\\EMSPROJECT\\DAL.EFCore\\DAL.EFCore.csproj",
+        "packagesPath": "C:\\Users\\PRABESH\\.nuget\\packages\\",
+        "outputPath": "C:\\xampp\\htdocs\\EMSPROJECT\\DAL.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dell.admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PRABESH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,10 +26,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\EMSPROJECT\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\EMSPROJECT\\Domain\\Domain.csproj"
+              "C:\\xampp\\htdocs\\EMSPROJECT\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\xampp\\htdocs\\EMSPROJECT\\Domain\\Domain.csproj"
               }
             }
           }
@@ -42,7 +41,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -68,21 +66,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.114\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\EMSPROJECT\\Domain\\Domain.csproj": {
+    "C:\\xampp\\htdocs\\EMSPROJECT\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EMSPROJECT\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\EMSPROJECT\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\EMSPROJECT\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\dell.admin\\.nuget\\packages\\",
-        "outputPath": "D:\\EMSPROJECT\\Domain\\obj\\",
+        "projectPath": "C:\\xampp\\htdocs\\EMSPROJECT\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\PRABESH\\.nuget\\packages\\",
+        "outputPath": "C:\\xampp\\htdocs\\EMSPROJECT\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dell.admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PRABESH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,7 +92,6 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
-            "targetAlias": "netcoreapp3.0",
             "projectReferences": {}
           }
         },
@@ -106,7 +103,6 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "targetAlias": "netcoreapp3.0",
           "imports": [
             "net461",
             "net462",
@@ -121,14 +117,6 @@
             {
               "name": "Microsoft.AspNetCore.App.Ref",
               "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
             }
           ],
           "frameworkReferences": {
@@ -136,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.114\\RuntimeIdentifierGraph.json"
         }
       }
     }
